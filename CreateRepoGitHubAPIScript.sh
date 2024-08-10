@@ -4,10 +4,10 @@
 GITHUB_TOKEN="${GITHUB_TOKEN}"
 
 #Variable named repository
-REPO_NAME="my-repo"
+REPO_NAME="${REPO_NAME}"
 
 #Description repository
-REPO_DESCRIPTION="Hello world this is  my new repository."
+REPO_DESCRIPTION="${REPO_DESCRIPTION}"
 
 #Use the GitHub API to create a new repository
 curl -H "Authorization: token $GITHUB_TOKEN" \
